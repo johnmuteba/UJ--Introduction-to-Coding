@@ -10,7 +10,7 @@ This course provides MFE students with a strong foundation in Python, R, SQL, an
 
 **John Weirstrass Muteba Mwamba**  
 📧 johnmu@uj.ac.za | jwmm@yorku.ca  
-📞 +27 11 559 4371 (UJ Office) | +1 289 237 0366 (Direct/WhatsApp)  
+📞 +27 11 559 4371 (UJ Office)   
 
 Class Time: **Saturdays, 13h00 – 21h00 (SA time)**
 
