@@ -686,7 +686,8 @@
 
 ---
 
-**John Weirstrass MUTEBA MWAMBA**
+**John Weirstrass MUTEBA MWAMBA, Ph.D.**
+
 For the Master of Financial Engineering Programme
 
 © 2025 Analytics Research Group
