@@ -270,7 +270,7 @@ This policy ensures transparency while embracing modern tools in data science ed
 
 ## License
 
-This repository is maintained for academic purposes by Dr John Weirstrass Muteba Mwamba. Materials are provided for educational use by enrolled students and researchers.
+This repository is maintained for academic purposes by Dr John Weirstrass Muteba Mwamba. Materials are provided for educational use by students and researchers.
 
 See [LICENSE](./LICENSE) for more information.
 
