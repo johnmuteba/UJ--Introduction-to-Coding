@@ -2,7 +2,7 @@
 
 ## INCO9X1: Introduction to Coding for Data Science
 
-### University of Johannesburg | Master of Financial Engineering Programme
+### U.J.| M.F.E. Programme
 
 ---
 
@@ -689,13 +689,6 @@ Understanding mathematical and computational tools from a quant's perspective.
 - **ACL** (Association for Computational Linguistics)
 - **FMA** (Financial Management Association)
 
-### Follow on Twitter/X
-- Key researchers in ML/NLP/Finance
-- @ylecun (Yann LeCun)
-- @goodfellow_ian (Ian Goodfellow)
-- @AnimaAnandkumar (Anima Anandkumar)
-- @fchollet (François Chollet)
-
 ---
 
 ## Additional Notes
@@ -740,10 +733,9 @@ Many resources are freely available. Take advantage of:
 
 ---
 
-**University of Johannesburg**
-Faculty of Economic and Financial Sciences
-Master of Financial Engineering Programme
+**John Weirstrass MUTEBA MWAMBA,Ph.D.**
+For the Master of Financial Engineering Programme
 
 *Building a Foundation for Data-Driven Financial Engineering*
 
-© 2025 University of Johannesburg
+© 2025 Analytics Research Group
