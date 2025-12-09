@@ -2,7 +2,7 @@
 
 ## INCO9X1: Introduction to Coding for Data Science
 
-### University of Johannesburg | Master of Financial Engineering Programme
+### U.J. | M.F.E. Programme
 
 ---
 
@@ -16,7 +16,7 @@ In this course, students undertake comprehensive data science projects that addr
 
 ### Project Submission Deadline
 
-**May 20th, 2025, at 23:59 South African Time**
+**May XX, 2026, at 23:59 South African Time**
 
 ---
 
@@ -24,7 +24,7 @@ In this course, students undertake comprehensive data science projects that addr
 
 ### Group Formation
 - Students must form groups of **three (3) members**
-- Submit group member list to instructor
+- Submit group member list to me
 - Include chosen project topic
 
 ### Technical Requirements
@@ -108,7 +108,7 @@ Inflation affects insurance companies' ability to price products accurately and 
 
 ---
 
-### Project 3: Public Sentiment on the 2024 Elections
+### Project 3: Public Sentiment on the (2024) SA Elections
 
 #### Context
 The 2024 South African elections represent a significant political event with economic implications. Understanding public sentiment can inform policy and investment decisions.
@@ -170,7 +170,7 @@ Corruption remains a critical issue in South Africa. Analyzing public discourse 
 
 ---
 
-### Project 5: Impact of the 2024 Elections on the South African Stock Market
+### Project 5: Impact of the (2024) Elections on the South African Stock Market
 
 #### Context
 Political events significantly influence financial markets. Analyzing election-market relationships helps investors navigate political risk.
@@ -328,7 +328,7 @@ Young South Africans represent an underserved market for life insurance. Underst
 ### Project 10: Violence Against Women and Girls Sentiment Analysis
 
 #### Context
-Violence against women and girls remains a critical social issue in South Africa. Analyzing public discourse can assess awareness and guide interventions.
+Violence against women and girls (VAWG) remains a critical social issue in South Africa. Analyzing public discourse can assess awareness and guide interventions.
 
 #### Data to be Used
 - News articles on VAWG
@@ -639,7 +639,7 @@ The use of Generative AI tools (ChatGPT, Claude, GitHub Copilot, etc.) is **perm
 
 ### Office Hours
 - Instructor: By appointment
-- Email: johnmu@uj.ac.za
+- Email: johnmu@uj.ac.za; and: jwmm@yorku.ca
 
 ### Technical Resources
 - Python documentation
@@ -667,11 +667,11 @@ The use of Generative AI tools (ChatGPT, Claude, GitHub Copilot, etc.) is **perm
 
 | Milestone | Date | Deliverable |
 |-----------|------|-------------|
-| Group Formation | February 15, 2025 | Group list with topic |
-| Proposal | March 15, 2025 | 2-page project proposal |
-| Progress Update | April 15, 2025 | Preliminary results |
-| Final Submission | May 20, 2025, 23:59 | Report + Code + Presentation |
-| Presentations | May 24-25, 2025 | In-class presentations |
+| Group Formation | February XX, 2026 | Group list with topic |
+| Proposal | March XX, 2026 | 2-page project proposal |
+| Progress Update | April XX, 2026 | Preliminary results |
+| Final Submission | May XX, 2026, 23:59 | Report + Code + Presentation |
+| Presentations | May XX, 2026 | In-class presentations |
 
 ---
 
@@ -688,8 +688,7 @@ The use of Generative AI tools (ChatGPT, Claude, GitHub Copilot, etc.) is **perm
 
 ---
 
-**University of Johannesburg**
-Faculty of Economic and Financial Sciences
-Master of Financial Engineering Programme
+**John Weirstrass MUTEBA MWAMBA, Ph.D.**
+For the Master of Financial Engineering Programme
 
-© 2025 University of Johannesburg
+© 2025 Analytics Research Group
