@@ -621,6 +621,7 @@ Students should have:
 ---
 
 **John Weirstrass MUTEBA MWAMBA, Ph.D.**
+
 For the Master of Financial Engineering Programme
 
 *Advancing Knowledge at the Intersection of Finance, Technology, and Data Science*
