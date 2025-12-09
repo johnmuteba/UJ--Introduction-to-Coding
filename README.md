@@ -111,31 +111,33 @@ For detailed weekly content, see [COURSE_OUTLINE.md](./COURSE_OUTLINE.md)
 
 ## Repository Organization
 
-This repository contains all course materials organized by week:
+### 📚 Course Materials by Week
 
-```
-UJ--Introduction-to-Coding/
-│
-├── Week 1- Intro to Python List Tuples Ops/
-├── Week 2 - Functions Loops Iterations Modules/
-├── Week 3 - Data Preprocessing and Database Building/
-├── Week 4 - Recap on ML Algos and Unsupervised Learning -Clustering K-Means/
-├── Week 5 - Natural Langua Processing -Text Vect & Topic Modelling/
-├── Week 6 - Word Embedding/
-├── Week 7 - Deep Learning ANN & MLP on Keras and TensorFlow/
-├── Week 8 - Advanced Neural Networks  CNN RNN Bayesian-Networks/
-├── Week 9 - Advanced Neural Networks - GAN Transformers/
-├── Week 10 Generative Pretrained Transformers - LLMs & RAG/
-│
-├── COURSE_DESCRIPTION.md
-├── COURSE_OUTLINE.md
-├── INSTALLATION_GUIDE.md
-├── PROJECT_TOPICS.md
-├── RECOMMENDED_READINGS.md
-├── RESEARCH_OPPORTUNITIES.md
-├── README.md
-└── LICENSE
-```
+This repository contains all course materials organized with easy access to slides, code, and datasets for each week:
+
+| Week | Topic | 📊 Slides | 💻 Code/Notebooks | 📁 Data |
+|:----:|-------|-----------|-------------------|---------|
+| **1** | **Intro to Python: Lists, Tuples, Operators** | [Week1.ppt](./Week%201-%20Intro%20to%20Python%20List%20Tuples%20Ops/Week1.ppt) | - | - |
+| **2** | **Functions, Loops, Iterations & Modules** | [Functions Loops and Iterations.pptx](./Week%202%20-%20Functions%20Loops%20Iterations%20Modules/Functions%20Loops%20and%20Iterations.pptx)<br>[Python MODULES for Data Analysis.pptx](./Week%202%20-%20Functions%20Loops%20Iterations%20Modules/Python%20MODULES%20for-Data-Analysis.pptx) | [Intro to Python Weeks 1-3.ipynb](./Week%202%20-%20Functions%20Loops%20Iterations%20Modules/2025_WEEK%201%20to%203%20-%20INTRODUCTION%20TO%20PYTHON%20FOR%20DATA%20SCIENCE.ipynb) | [Salaries.csv](./Week%202%20-%20Functions%20Loops%20Iterations%20Modules/Salaries.csv)<br>[flights.csv](./Week%202%20-%20Functions%20Loops%20Iterations%20Modules/flights.csv) |
+| **3** | **Data Preprocessing & Database Building** | [Databases SQL & NoSQL.pptx](./Week%203%20-%20Data%20Preprocessing%20and%20Database%20Building/SESSION%205_DATABASES_SQL_NoSQL.pptx) | [Data Preprocessing & Modelling.ipynb](./Week%203%20-%20Data%20Preprocessing%20and%20Database%20Building/2025__WEEK4SLIDES_DATA_PREPROCESSING_SPLIT_MODELLING_STEPS.ipynb)<br>[MySQL with Python & Pandas.ipynb](./Week%203%20-%20Data%20Preprocessing%20and%20Database%20Building/Week%205-CREATE_MySQL_Table_within_Python_call_it_in_Pandas_DataFrame.ipynb) | - |
+| **4** | **ML Algorithms & Unsupervised Learning** | - | [Random Forest Classification.ipynb](./Week%204%20-%20Recap%20on%20ML%20Algos%20and%20Unsupervised%20Learning%20-Clustering%20K-Means/RANDOM-FOREST-CLASSIFICATION.ipynb)<br>[Random Forest Regression.ipynb](./Week%204%20-%20Recap%20on%20ML%20Algos%20and%20Unsupervised%20Learning%20-Clustering%20K-Means/RANDOM-FOREST-REGRESSION.ipynb)<br>[Ridge Regression.ipynb](./Week%204%20-%20Recap%20on%20ML%20Algos%20and%20Unsupervised%20Learning%20-Clustering%20K-Means/RIDE-REGRESSION.ipynb)<br>[Unsupervised Learning in Finance.ipynb](./Week%204%20-%20Recap%20on%20ML%20Algos%20and%20Unsupervised%20Learning%20-Clustering%20K-Means/UNSUPERVISED_LEARNING_ALGOS_and_APPLICATIONSinFINANCE.ipynb) | - |
+| **5** | **NLP: Text Vectorization & Topic Modelling** | - | [NLP Text Data Analysis.ipynb](./Week%205%20-%20Natural%20Langua%20Processing%20-Text%20Vect%20%26%20Topic%20Modelling/NLP_TextData_Analysis.ipynb) | - |
+| **6** | **Word Embedding** | [Word Embeddings.pptx](./Week%206%20-%20Word%20Embedding/Word-embeddings.pptx) | [Word Embeddings Slides.ipynb](./Week%206%20-%20Word%20Embedding/Slides_WORD_EMBEDDINGS.ipynb) | - |
+| **7** | **Deep Learning: ANN & MLP (Keras/TensorFlow)** | [Deep Learning KERAS on TensorFlow.pptx](./Week%207%20-%20Deep%20Learning%20ANN%20%26%20MLP%20on%20Keras%20and%20TensorFlow/DL%20ERAS%20ON%20TENSORFLOW.pptx) | [DL with Google News - Regression & Classification (1).ipynb](./Week%207%20-%20Deep%20Learning%20ANN%20%26%20MLP%20on%20Keras%20and%20TensorFlow/AI__DLwithGoogleNewsData_KERAS_Regression_Classification%20(1).ipynb)<br>[DL with Google News - Regression & Classification (2).ipynb](./Week%207%20-%20Deep%20Learning%20ANN%20%26%20MLP%20on%20Keras%20and%20TensorFlow/AI__DLwithGoogleNewsData_KERAS_Regression_Classification%20(2).ipynb)<br>[Multiclass DL with MNIST.ipynb](./Week%207%20-%20Deep%20Learning%20ANN%20%26%20MLP%20on%20Keras%20and%20TensorFlow/AI__MULTICLASS_Deep_LearningWithMNISTdataKERAS.ipynb)<br>[DL KERAS.ipynb](./Week%207%20-%20Deep%20Learning%20ANN%20%26%20MLP%20on%20Keras%20and%20TensorFlow/DL_KERAS.ipynb) | - |
+| **8** | **Advanced Neural Networks: CNN & RNN** | [CNN & RNN Models.pptx](./Week%208%20-%20Advanced%20Neural%20Networks%20%20CNN%20RNN%20Bayesian-Networks/CNN%20%26%20RNN%20Models-.pptx) | [CNN with MNIST.ipynb](./Week%208%20-%20Advanced%20Neural%20Networks%20%20CNN%20RNN%20Bayesian-Networks/AI__CNN_MNISTdata_Keras.ipynb)<br>[LSTM Stock Price Prediction.ipynb](./Week%208%20-%20Advanced%20Neural%20Networks%20%20CNN%20RNN%20Bayesian-Networks/LSTM%20for%20predicting%20stock%20prices.ipynb)<br>[RNN-LSTM Stock Market Prediction.ipynb](./Week%208%20-%20Advanced%20Neural%20Networks%20%20CNN%20RNN%20Bayesian-Networks/RNN-LSTM%20for%20regression%20and%20Classification-%20stock%20market%20prediction.ipynb)<br>[RNN Template.ipynb](./Week%208%20-%20Advanced%20Neural%20Networks%20%20CNN%20RNN%20Bayesian-Networks/RNN_%20just%20add%20data%20link.ipynb) | - |
+| **9** | **Advanced Neural Networks: GAN & Transformers** | [GAN Network Model.pptx](./Week%209%20-%20Advanced%20Neural%20Networks%20-%20GAN%20Transformers/GAN%20Network%20Model.pptx)<br>[TRANSFORMERS NETWORK.pptx](./Week%209%20-%20Advanced%20Neural%20Networks%20-%20GAN%20Transformers/TRANSFORMERS%20NETWORK.pptx) | - | - |
+| **10** | **Generative AI: LLMs & RAG** | [Large Language Models.pptx](./Week%2010%20Generative%20Pretrained%20Transformers%20-%20LLMs%20%26%20RAG/Large%20Language%20Models.pptx) | - | [Getting Started with Ollama.docx](./Week%2010%20Generative%20Pretrained%20Transformers%20-%20LLMs%20%26%20RAG/Getting%20Started%20with%20Ollama.docx) |
+
+### 📖 Additional Resources
+
+| Resource | Description |
+|----------|-------------|
+| [**COURSE_DESCRIPTION.md**](./COURSE_DESCRIPTION.md) | Detailed course description and learning outcomes |
+| [**COURSE_OUTLINE.md**](./COURSE_OUTLINE.md) | Complete weekly syllabus and schedule |
+| [**INSTALLATION_GUIDE.md**](./INSTALLATION_GUIDE.md) | Setup instructions for Python, R, and required tools |
+| [**PROJECT_TOPICS.md**](./PROJECT_TOPICS.md) | Data science project topics for 2026 |
+| [**RECOMMENDED_READINGS.md**](./RECOMMENDED_READINGS.md) | Textbooks, papers, and supplementary materials |
+| [**RESEARCH_OPPORTUNITIES.md**](./RESEARCH_OPPORTUNITIES.md) | Dissertation topics and research directions |
 
 ---
 
