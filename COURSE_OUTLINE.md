@@ -2,7 +2,7 @@
 
 ## INCO9X1: Introduction to Coding for Data Science
 
-### University of Johannesburg | Master of Financial Engineering Programme
+### U.J.| M.F.E. Programme
 
 ---
 
@@ -26,7 +26,7 @@
 ### Week 1: Introduction to Python Fundamentals
 
 **Date:** TBD
-**Duration:** 8 hours
+**Duration:** 3 hours
 **Repository:** `Week 1- Intro to Python List Tuples Ops/`
 
 #### Topics Covered
@@ -83,7 +83,7 @@
 ### Week 2: Functions, Loops, and Iterations
 
 **Date:** TBD
-**Duration:** 8 hours
+**Duration:** 3 hours
 **Repository:** `Week 2 - Functions Loops Iterations Modules/`
 
 #### Topics Covered
@@ -143,7 +143,7 @@
 ### Week 3: Data Preprocessing and Database Building
 
 **Date:** TBD
-**Duration:** 8 hours
+**Duration:** 3 hours
 **Repository:** `Week 3 - Data Preprocessing and Database Building/`
 
 #### Topics Covered
@@ -212,7 +212,7 @@
 ### Week 4: Machine Learning and Unsupervised Learning
 
 **Date:** TBD
-**Duration:** 8 hours
+**Duration:** 3 hours
 **Repository:** `Week 4 - Recap on ML Algos and Unsupervised Learning -Clustering K-Means/`
 
 #### Topics Covered
@@ -263,7 +263,7 @@
 ### Week 5: Natural Language Processing
 
 **Date:** TBD
-**Duration:** 8 hours
+**Duration:** 3 hours
 **Repository:** `Week 5 - Natural Langua Processing -Text Vect & Topic Modelling/`
 
 #### Topics Covered
@@ -315,7 +315,7 @@
 ### Week 6: Word Embeddings
 
 **Date:** TBD
-**Duration:** 8 hours
+**Duration:** 3 hours
 **Repository:** `Week 6 - Word Embedding/`
 
 #### Topics Covered
@@ -369,7 +369,7 @@
 ### Week 7: Deep Learning Foundations
 
 **Date:** TBD
-**Duration:** 8 hours
+**Duration:** 3 hours
 **Repository:** `Week 7 - Deep Learning ANN & MLP on Keras and TensorFlow/`
 
 #### Topics Covered
@@ -428,7 +428,7 @@
 ### Week 8: Advanced Neural Networks I
 
 **Date:** TBD
-**Duration:** 8 hours
+**Duration:** 3 hours
 **Repository:** `Week 8 - Advanced Neural Networks  CNN RNN Bayesian-Networks/`
 
 #### Topics Covered
@@ -484,7 +484,7 @@
 ### Week 9: Advanced Neural Networks II
 
 **Date:** TBD
-**Duration:** 8 hours
+**Duration:** 3 hours
 **Repository:** `Week 9 - Advanced Neural Networks - GAN Transformers/`
 
 #### Topics Covered
@@ -542,7 +542,7 @@
 ### Week 10: Generative Pretrained Transformers and LLMs
 
 **Date:** TBD
-**Duration:** 8 hours
+**Duration:** 3 hours
 **Repository:** `Week 10 Generative Pretrained Transformers - LLMs & RAG/`
 
 #### Topics Covered
@@ -608,8 +608,8 @@
 |-----------|--------|----------|
 | Individual Assignments | 5-20% | Various |
 | Group Projects | 20-40% | Various |
-| Data Science Project | 40% | May 20, 2025 |
-| Final Examination | 20-30% | June 17, 2025 |
+| Data Science Project | 40% | May XX, 2026 |
+| Final Examination | 20-30% | June XX, 2026 |
 
 ---
 
@@ -638,7 +638,7 @@
 
 ### Attendance
 - Regular attendance expected
-- Notify instructor of absences in advance
+- Notify me of absences in advance
 
 ### Late Submissions
 - Consult course syllabus for late submission policy
@@ -652,7 +652,7 @@
 
 ### Disability Accommodations
 - Contact UJ Disability Services
-- Notify instructor at beginning of term
+- Notify me at beginning of term
 - Reasonable accommodations will be provided
 
 ---
@@ -686,8 +686,7 @@
 
 ---
 
-**University of Johannesburg**
-Faculty of Economic and Financial Sciences
-Master of Financial Engineering Programme
+**John Weirstrass MUTEBA MWAMBA**
+For the Master of Financial Engineering Programme
 
-© 2025 University of Johannesburg
+© 2025 Analytics Research Group
