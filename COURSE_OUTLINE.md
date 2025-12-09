@@ -9,7 +9,9 @@
 ## Course Schedule
 
 **Duration:** 10 Weeks
+
 **Class Time:** Saturdays, 13h00 – 21h00 (South African Time)
+
 **Format:** In-person with hands-on coding exercises
 
 ---
