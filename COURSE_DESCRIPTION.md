@@ -2,7 +2,7 @@
 
 ## INCO9X1: Introduction to Coding for Data Science
 
-### University of Johannesburg | Master of Financial Engineering Programme
+### U.J. | M.F.E. Programme
 
 ---
 
@@ -12,7 +12,7 @@ In the dynamic landscape of financial engineering, the surge in demand for progr
 
 ## Context and Motivation
 
-Traditional financial analysis has long relied on numerical data—stock prices, trading volumes, interest rates, and economic indicators. However, the modern financial landscape demands a more comprehensive approach. The curriculum delves into fundamental programming principles tailored to data science applications, encompassing:
+Traditional financial analysis has long relied on numerical data: stock prices, trading volumes, interest rates, and economic indicators. However, the modern financial landscape demands a more comprehensive approach. The curriculum delves into fundamental programming principles tailored to data science applications, encompassing:
 
 ### Core Areas of Study
 
@@ -185,12 +185,11 @@ Graduates with these skills are positioned to:
 
 ## Conclusion
 
-This course represents more than just learning to code—it's about acquiring the tools and mindset needed to thrive in the data-driven future of financial engineering. By combining rigorous programming training with financial domain knowledge, students are prepared to become leaders in the evolving landscape of financial technology and quantitative finance.
+This course represents more than just learning to code; it's about acquiring the tools and mindset needed to thrive in the data-driven future of financial engineering. By combining rigorous programming training with financial domain knowledge, students are prepared to become leaders in the evolving landscape of financial technology and quantitative finance.
 
 ---
 
-**University of Johannesburg**
-Faculty of Economic and Financial Sciences
-Master of Financial Engineering Programme
+**John Weirstrass MUTEBA MWAMBA, Ph.D.**
+For the Master of Financial Engineering Programme, U.J. 
 
-© 2025 University of Johannesburg
+© 2025 Analytics Research Group
