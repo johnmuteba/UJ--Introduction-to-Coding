@@ -190,6 +190,7 @@ This course represents more than just learning to code; it's about acquiring the
 ---
 
 **John Weirstrass MUTEBA MWAMBA, Ph.D.**
+
 For the Master of Financial Engineering Programme, U.J. 
 
 © 2025 Analytics Research Group
