@@ -2,7 +2,7 @@
 
 ## Python Setup for INCO9X1: Introduction to Coding for Data Science
 
-### University of Johannesburg | Master of Financial Engineering Programme
+### U.J. | M.F.E. Programme
 
 ---
 
@@ -515,8 +515,7 @@ After successful installation:
 
 ---
 
-**University of Johannesburg**
-Faculty of Economic and Financial Sciences
-Master of Financial Engineering Programme
+**John Weirstrass MUTEBA MWAMBA, Ph.D.**
+For the Master of Financial Engineering Programme
 
-© 2025 University of Johannesburg
+© 2025 Analytics Research Group
