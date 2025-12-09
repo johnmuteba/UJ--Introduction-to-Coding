@@ -689,6 +689,7 @@ The use of Generative AI tools (ChatGPT, Claude, GitHub Copilot, etc.) is **perm
 ---
 
 **John Weirstrass MUTEBA MWAMBA, Ph.D.**
+
 For the Master of Financial Engineering Programme
 
 © 2025 Analytics Research Group
