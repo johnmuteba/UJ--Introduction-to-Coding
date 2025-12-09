@@ -2,9 +2,7 @@
 
 <div align="center">
 
-**University of Johannesburg**
-**Faculty of Economic and Financial Sciences**
-**Master of Financial Engineering Programme**
+****U.J.|M.F.E. Programme**
 
 ---
 
@@ -14,13 +12,13 @@
 
 **Course Code:** INCO9X1
 **Course Title:** Introduction to Coding for Data Science
-**Institution:** University of Johannesburg
-**Programme:** Master of Financial Engineering (MFE)
+**Institution:** U.J.
+**Programme:** MFE
 **Schedule:** Saturdays, 13h00 – 21h00 (South African Time)
 
 ### Instructor
 
-**Dr. John Weirstrass Muteba Mwamba**
+**Prof. John Weirstrass Muteba Mwamba**
 - **Email:** johnmu@uj.ac.za | jwmm@yorku.ca
 - **Office Phone:** +27 11 559 4371 (UJ Office)
 - **Direct Line/WhatsApp:** +1 289 237 0366
@@ -258,24 +256,18 @@ This policy ensures transparency while embracing modern tools in data science ed
 
 ### Instructor
 
-**Dr. John Weirstrass Muteba Mwamba**
+**Prof. John Weirstrass Muteba Mwamba**
 
 - **Email:** johnmu@uj.ac.za | jwmm@yorku.ac.za
 - **Office:** University of Johannesburg
 - **Phone:** +27 11 559 4371 (Office)
 - **WhatsApp/Direct:** +1 289 237 0366
 
-### University Information
-
-**University of Johannesburg**
-Faculty of Economic and Financial Sciences
-Master of Financial Engineering Programme
-
 ---
 
 ## License
 
-This repository is maintained for academic purposes at the University of Johannesburg. Materials are provided for educational use by enrolled students and researchers.
+This repository is maintained for academic purposes by Dr John Weirstrass Muteba Mwamba. Materials are provided for educational use by enrolled students and researchers.
 
 See [LICENSE](./LICENSE) for more information.
 
@@ -283,9 +275,9 @@ See [LICENSE](./LICENSE) for more information.
 
 <div align="center">
 
-**University of Johannesburg**
+**John Weirstrass MUTEBA MWAMBA Ph.D.**
 *Inspiring Excellence in Financial Engineering Education*
 
-© 2025 University of Johannesburg. All Rights Reserved.
+© 2025 Analytics Research Group. All Rights Reserved.
 
 </div>
