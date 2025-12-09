@@ -27,6 +27,10 @@
 - **Direct Line/WhatsApp:** +1 289 237 0366
 - **Office Hours:** By appointment
 
+#### Academic Profiles
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/YOUR-ORCID-ID)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=HmVumxMAAAAJ&hl=en)
+
 ---
 
 ## Table of Contents
@@ -265,6 +269,10 @@ This policy ensures transparency while embracing modern tools in data science ed
 - **Email:** johnmu@uj.ac.za | jwmm@yorku.ac.za
 - **Phone:** +27 11 559 4371 (Office)
 - **WhatsApp/Direct:** +1 289 237 0366
+
+#### Academic Profiles
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/YOUR-ORCID-ID)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=HmVumxMAAAAJ&hl=en)
 
 ---
 
