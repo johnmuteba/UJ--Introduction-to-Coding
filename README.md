@@ -12,8 +12,11 @@
 
 **Course Code:** INCO9X1
 **Course Title:** Introduction to Coding for Data Science
+
 **Institution:** U.J.
+
 **Programme:** MFE
+
 **Schedule:** Saturdays, 13h00 – 21h00 (South African Time)
 
 ### Instructor
@@ -276,6 +279,7 @@ See [LICENSE](./LICENSE) for more information.
 <div align="center">
 
 **John Weirstrass MUTEBA MWAMBA Ph.D.**
+
 *Inspiring Excellence in Financial Engineering Education*
 
 © 2025 Analytics Research Group. All Rights Reserved.
