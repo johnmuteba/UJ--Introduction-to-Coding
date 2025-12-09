@@ -734,6 +734,7 @@ Many resources are freely available. Take advantage of:
 ---
 
 **John Weirstrass MUTEBA MWAMBA,Ph.D.**
+
 For the Master of Financial Engineering Programme
 
 *Building a Foundation for Data-Driven Financial Engineering*
