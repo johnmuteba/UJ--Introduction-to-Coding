@@ -4,13 +4,13 @@
 
 ### INCO9X1: Introduction to Coding for Data Science
 
-**University of Johannesburg | Master of Financial Engineering Programme**
+**U.J.| M.F.E. Programme**
 
 ---
 
 ## Overview
 
-This document outlines potential research topics for Master's dissertations and academic research that can be supervised by Dr. John Weirstrass Muteba Mwamba. These topics leverage the skills and techniques covered in INCO9X1: Introduction to Coding for Data Science, combining financial engineering domain knowledge with cutting-edge data science methodologies.
+This document outlines potential research topics for Master's dissertations and academic research that can be supervised by Prof. John Weirstrass Muteba Mwamba. These topics leverage the skills and techniques covered in INCO9X1: Introduction to Coding for Data Science, combining financial engineering domain knowledge with cutting-edge data science methodologies.
 
 ### Research Philosophy
 
@@ -481,15 +481,14 @@ Develop automated systems for regulatory compliance monitoring by analyzing regu
 
 ### Supervisor
 
-**Dr. John Weirstrass Muteba Mwamba**
-- **Position:** Faculty of Economic and Financial Sciences, University of Johannesburg
+**Prof. John Weirstrass Muteba Mwamba**
 - **Email:** johnmu@uj.ac.za | jwmm@yorku.ca
 - **Phone:** +27 11 559 4371 (Office)
-- **Research Interests:** Financial Engineering, Data Science, Quantitative Finance, Text Analytics
+- **Research Interests:** Financial Engineering, Data Science, Quantitative Finance, Text Analytics, Health Informatics.
 
 ### Research Supervision Approach
 
-Dr. Mwamba provides:
+Prof. Mwamba provides:
 - **Regular Meetings**: Bi-weekly or monthly depending on project stage
 - **Technical Guidance**: Python programming, statistical methods, financial theory
 - **Industry Connections**: Links to financial industry professionals
@@ -554,7 +553,7 @@ Dr. Mwamba provides:
    - Proposed methodology
    - Expected contributions
    - Timeline
-3. **Email Supervisor**: Send proposal to johnmu@uj.ac.za
+3. **Email Supervisor**: Send proposal to johnmu@uj.ac.za | jwmm@yorku.ca
 4. **Schedule Meeting**: Arrange discussion of proposal
 5. **Refine Proposal**: Incorporate feedback
 6. **Formal Application**: Submit through UJ graduate school
@@ -583,7 +582,7 @@ Students should have:
 | **Analysis** | 2-3 months | Run experiments, analyze results, iterate |
 | **Writing** | 2-3 months | Draft chapters, incorporate feedback |
 | **Revision** | 1-2 months | Final revisions, proofreading |
-| **Examination** | 1 month | Submission, examination, viva voce |
+| **Examination** | 1 month | Submission, examination,  |
 
 ---
 
@@ -616,21 +615,14 @@ Students should have:
 
 **For research inquiries:**
 
-**Dr. John Weirstrass Muteba Mwamba**
-- **Email:** johnmu@uj.ac.za
-- **Office:** University of Johannesburg, Auckland Park Campus
+**Prof. John Weirstrass Muteba Mwamba**
+- **Email:** johnmu@uj.ac.za | jwmm@yorku.ca
 - **Phone:** +27 11 559 4371
-
-**University of Johannesburg Graduate School:**
-- Website: https://www.uj.ac.za
-- Graduate Studies Office: Contact for admission procedures
-
 ---
 
-**University of Johannesburg**
-Faculty of Economic and Financial Sciences
-Master of Financial Engineering Programme
+**John Weirstrass MUTEBA MWAMBA, Ph.D.**
+For the Master of Financial Engineering Programme
 
 *Advancing Knowledge at the Intersection of Finance, Technology, and Data Science*
 
-© 2025 University of Johannesburg
+© 2025 Analytics Research Group
