@@ -19,8 +19,11 @@
 ## Part I: Introduction to Coding with Python
 
 **Duration:** Weeks 1-3
+
 **Main Text:** April Speight (2020) "Bite-size Python: An Introduction to Python Programming"
+
 **Publisher:** John Wiley & Sons, Inc.
+
 **ISBN:** 978-1-119-64381-4 (Hard Copy) | 978-1-119-64383-8 (eBook)
 
 ---
@@ -28,7 +31,9 @@
 ### Week 1: Introduction to Python Fundamentals
 
 **Date:** TBD
+
 **Duration:** 3 hours
+
 **Repository:** `Week 1- Intro to Python List Tuples Ops/`
 
 #### Topics Covered
@@ -85,7 +90,9 @@
 ### Week 2: Functions, Loops, and Iterations
 
 **Date:** TBD
+
 **Duration:** 3 hours
+
 **Repository:** `Week 2 - Functions Loops Iterations Modules/`
 
 #### Topics Covered
@@ -145,7 +152,9 @@
 ### Week 3: Data Preprocessing and Database Building
 
 **Date:** TBD
+
 **Duration:** 3 hours
+
 **Repository:** `Week 3 - Data Preprocessing and Database Building/`
 
 #### Topics Covered
@@ -207,6 +216,7 @@
 ## Part II: Python Data Science Applications
 
 **Duration:** Weeks 4-10
+
 **Main Texts:** Patrick Rafail and Isaac Freitas (2020) "Natural Language Processing" + Various Academic Papers
 
 ---
@@ -214,7 +224,9 @@
 ### Week 4: Machine Learning and Unsupervised Learning
 
 **Date:** TBD
+
 **Duration:** 3 hours
+
 **Repository:** `Week 4 - Recap on ML Algos and Unsupervised Learning -Clustering K-Means/`
 
 #### Topics Covered
@@ -265,7 +277,9 @@
 ### Week 5: Natural Language Processing
 
 **Date:** TBD
+
 **Duration:** 3 hours
+
 **Repository:** `Week 5 - Natural Langua Processing -Text Vect & Topic Modelling/`
 
 #### Topics Covered
@@ -317,7 +331,9 @@
 ### Week 6: Word Embeddings
 
 **Date:** TBD
+
 **Duration:** 3 hours
+
 **Repository:** `Week 6 - Word Embedding/`
 
 #### Topics Covered
@@ -371,7 +387,9 @@
 ### Week 7: Deep Learning Foundations
 
 **Date:** TBD
+
 **Duration:** 3 hours
+
 **Repository:** `Week 7 - Deep Learning ANN & MLP on Keras and TensorFlow/`
 
 #### Topics Covered
@@ -430,7 +448,9 @@
 ### Week 8: Advanced Neural Networks I
 
 **Date:** TBD
+
 **Duration:** 3 hours
+
 **Repository:** `Week 8 - Advanced Neural Networks  CNN RNN Bayesian-Networks/`
 
 #### Topics Covered
@@ -486,7 +506,9 @@
 ### Week 9: Advanced Neural Networks II
 
 **Date:** TBD
+
 **Duration:** 3 hours
+
 **Repository:** `Week 9 - Advanced Neural Networks - GAN Transformers/`
 
 #### Topics Covered
@@ -544,7 +566,9 @@
 ### Week 10: Generative Pretrained Transformers and LLMs
 
 **Date:** TBD
+
 **Duration:** 3 hours
+
 **Repository:** `Week 10 Generative Pretrained Transformers - LLMs & RAG/`
 
 #### Topics Covered
