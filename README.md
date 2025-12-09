@@ -262,9 +262,7 @@ This policy ensures transparency while embracing modern tools in data science ed
 ### Instructor
 
 **Prof. John Weirstrass Muteba Mwamba**
-
 - **Email:** johnmu@uj.ac.za | jwmm@yorku.ac.za
-- **Office:** University of Johannesburg
 - **Phone:** +27 11 559 4371 (Office)
 - **WhatsApp/Direct:** +1 289 237 0366
 
