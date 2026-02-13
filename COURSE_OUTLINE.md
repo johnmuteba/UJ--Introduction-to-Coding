@@ -642,10 +642,15 @@
 ---
 ## Class Attendance & In-Class Checks (20%)
 Attendance is recorded using two short Microsoft Forms check-ins during every lecture:
+
 o	Check 1 (mid-lecture): opened for a limited time during the first half of the class.
+
 o	Check 2 (end-lecture): opened for a limited time during the last part of the class.
+
   – The link is posted in the MS Teams meeting chat and/or shared on screen.
+  
   – Each check requires student number, full name, email address, and a one-time class code announced live.
+  
   – Submissions must be completed individually (no group submission for attendance).
 
 ---
