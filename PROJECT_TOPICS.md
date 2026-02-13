@@ -10,13 +10,13 @@
 
 In this course, students undertake comprehensive data science projects that address topical issues currently shaping South Africa and the financial sector. These projects constitute **40%** of the final grade distribution:
 
-- **15%** - Written Report Document
+- **10%** - Written Report Document
 - **15%** - Coding File (Python, presented in PDF format)
 - **10%** - Project Presentation
 
 ### Project Submission Deadline
 
-**May 22, 2026, at 23:59 South African Time**
+**May 22nd, 2026, at 23:59 South African Time**
 
 ---
 
@@ -48,433 +48,473 @@ Projects leverage key topics including:
 
 ## Project Topics
 
-### DATABASE DESIGN and PYTHON PIPELINES
+### Project 1: Interest Rates and Stock Market Volatility
 
-#### Project 0: Real-Time Financial Market Database System
+#### Context
+Interest rate changes by central banks have profound effects on financial markets. Understanding these relationships is crucial for investment strategy and risk management.
 
-**Data to be Used:**
-- Yahoo Finance API: JSE Top 40 stocks (real-time prices via yfinance)
-- Alpha Vantage API: Intraday data, technical indicators
-- SARB: Historical interest rates, exchange rates (CSV downloads)
-- JSE SENS announcements (web scraping)
-- Company fundamentals (earnings, dividends, splits)
+#### Data to be Used
+- Historical stock prices (JSE-listed companies)
+- Central bank policy announcements (South African Reserve Bank)
+- Interest rate time series data
+- Market volatility indices
 
-**Objectives:**
-- Design normalized MySQL database schema (3NF) for multi-asset financial market data
-- Implement fact tables: stock_prices, options_data, forex_rates, commodities
-- Implement dimension tables: companies, sectors, exchanges, calendar_dates
-- Build Python ETL pipeline using functions, loops, and error handling to:
-  - **Extract**: Fetch data from APIs every 15 minutes (or daily)
-  - **Transform**: Clean data, handle missing values, calculate technical indicators (SMA, RSI, MACD)
-  - **Load**: Insert/update records in MySQL using pymysql or SQLAlchemy
-- Implement data validation: check for duplicates, outliers, data type constraints
-- Create stored procedures and triggers for automated data quality checks
-- Write complex SQL queries for financial analysis:
-  - Top 10 gainers/losers by sector
-  - 52-week high/low calculations
-  - Moving average crossover signals
-  - Portfolio performance attribution queries
-- Build Python dashboard (Streamlit/Flask) querying MySQL for real-time portfolio monitoring
+#### Research Questions/Objectives
+1. Use time series data to analyze the impact of interest rate changes on stock market volatility
+2. Apply Recurrent Neural Networks (RNNs) to forecast volatility trends
+3. Develop hedging strategies for investors during interest rate shifts
 
-**Technologies:** Python, MySQL, pymysql/SQLAlchemy, pandas, yfinance, schedule (for automation)
+#### Expected Deliverables
+- Time series analysis of interest rate-volatility relationship
+- RNN model for volatility forecasting
+- Backtested hedging strategies
+- Risk-return analysis of proposed strategies
+
+#### Relevant Techniques
+- Time series analysis
+- RNN/LSTM networks
+- Volatility modeling (GARCH)
+- Portfolio hedging strategies
 
 ---
 
-### CLUSTERING and UNSUPERVISED LEARNING PROJECTS
+### Project 2: Impact of Inflation on Insurance Premiums
 
-#### Project 1: JSE Stock Clustering for Portfolio Construction Using Machine Learning
+#### Context
+Inflation affects insurance companies' ability to price products accurately and maintain profitability. Understanding this relationship helps insurers remain competitive.
 
-**Data to be Used:**
-- Yahoo Finance: JSE Top 40 and All Share constituents (daily prices, volumes)
-- SARB: Interest rates, exchange rates
-- Company financials from annual reports (market cap, P/E, sector)
+#### Data to be Used
+- Insurance company financial reports
+- Macroeconomic data (inflation rates, CPI)
+- Premium pricing data
+- Claims data
 
-**Objectives:**
-- Apply K-Means, DBSCAN, and hierarchical clustering to group JSE stocks based on returns, volatility, sector, and fundamental metrics
-- Discover natural market segments beyond traditional sector classifications
-- Build diversified portfolios using cluster representatives to minimize correlation
-- Compare cluster-based portfolios vs. sector-based portfolios using Sharpe ratio and maximum drawdown
-- Validate clusters using silhouette scores and dendrograms
+#### Research Questions/Objectives
+1. Use sequence data and RNNs to model the impact of inflation on insurance premiums
+2. Forecast premium trends under varying inflation scenarios
+3. Suggest strategies for insurers to remain competitive during inflationary periods
 
-**Techniques:** K-Means clustering, hierarchical clustering, DBSCAN, dimensionality reduction (PCA, t-SNE), portfolio optimization
+#### Expected Deliverables
+- Analysis of inflation-premium relationship
+- RNN-based forecasting model
+- Scenario analysis under different inflation paths
+- Strategic recommendations for insurers
 
-#### Project 2: Credit Risk Segmentation of South African Corporate Bonds
-
-**Data to be Used:**
-- JSE bond market data (yields, credit ratings)
-- Company financial statements (leverage ratios, interest coverage, profitability)
-- Macroeconomic indicators from SARB
-- Default data from rating agencies (if available)
-
-**Objectives:**
-- Cluster SA corporate bonds based on credit risk characteristics
-- Identify homogeneous risk groups using financial ratios and bond features
-- Develop risk-based pricing strategies for different clusters
-- Predict probability of rating downgrades using cluster membership
-- Compare unsupervised clustering results with actual credit ratings
-
-**Techniques:** Clustering (K-Means, Gaussian Mixture Models), feature engineering, anomaly detection, credit scoring
-
-#### Project 3: Cryptocurrency Market Segmentation and Trading Strategy Development
-
-**Data to be Used:**
-- CoinGecko/CoinMarketCap API: Crypto prices in ZAR (Bitcoin, Ethereum, Altcoins)
-- Trading volume, market cap, volatility metrics
-- VALR/Luno exchange data for South African crypto markets
-
-**Objectives:**
-- Cluster cryptocurrencies based on price behavior, volatility, and correlation patterns
-- Identify crypto assets with similar risk-return profiles
-- Develop cluster-based rotation strategies (momentum within clusters)
-- Test whether crypto clusters provide diversification for SA investors
-- Analyze ZAR premium dynamics across clusters
-
-**Techniques:** Time series clustering, K-Means, correlation analysis, backtesting trading strategies
+#### Relevant Techniques
+- Time series forecasting
+- RNN/LSTM networks
+- Scenario analysis
+- Financial modeling
 
 ---
 
-### NLP PROJECTS: TEXT VECTORIZATION and TOPIC MODELING
+### Project 3: Public Sentiment on the (2024) SA Elections
 
-#### Project 4: Topic Modeling of JSE-Listed Company Annual Reports
+#### Context
+The 2024 South African elections represent a significant political event with economic implications. Understanding public sentiment can inform policy and investment decisions.
 
-**Data to be Used:**
-- Annual reports and financial statements from JSE-listed companies (2015-2025)
-- MD&A (Management Discussion & Analysis) sections
-- Chairman's statements and CEO letters
-- Company announcements from SENS (Stock Exchange News Service)
+#### Data to be Used
+- Social media posts (Twitter/X, Facebook)
+- News articles about elections
+- Public discussion forums
+- Political commentary
 
-**Objectives:**
-- Apply LDA and LSA to extract latent topics from corporate reports
-- Identify emerging business themes and strategic shifts
-- Correlate topic distributions with stock performance
-- Detect early warning signals of financial distress through topic changes
-- Compare topic evolution across industries and market cap segments
+#### Research Questions/Objectives
+1. Analyze public sentiment around the elections using NLP tools (text vectorization, topic modeling)
+2. Identify major issues influencing voter sentiment and concerns
+3. Develop actionable insights for policy recommendations or public outreach strategies
 
-**Techniques:** Topic modeling (LDA, LSA, NMF), TF-IDF vectorization, text preprocessing, visualization (pyLDAvis)
+#### Expected Deliverables
+- Comprehensive sentiment analysis
+- Topic modeling results identifying key themes
+- Visualization of sentiment trends over time
+- Policy recommendations based on findings
 
-#### Project 5: Sentiment Analysis of SARB Monetary Policy Statements
-
-**Data to be Used:**
-- SARB Monetary Policy Committee (MPC) statements (2010-2025)
-- SARB Governor speeches and press releases
-- JSE All Share Index and bond yields around announcement dates
-- Inflation and repo rate data
-
-**Objectives:**
-- Extract topics from SARB policy statements using LDA
-- Quantify hawkish vs. dovish sentiment using dictionary-based and ML methods
-- Predict bond and equity market reactions to MPC announcements
-- Build text-based indicators for monetary policy stance
-- Test whether textual analysis improves forecasts beyond rate changes alone
-
-**Techniques:** Topic modeling (LDA), sentiment analysis, TF-IDF, regression analysis, event study methodology
-
-#### Project 6: News-Based Alpha: Extracting Trading Signals from Financial News
-
-**Data to be Used:**
-- Financial news articles (Business Day, Moneyweb, Bloomberg, Reuters)
-- JSE stock prices and trading volumes
-- Company-specific news from SENS
-- Web scraping of news headlines
-
-**Objectives:**
-- Build document-term matrices using TF-IDF for financial news corpus
-- Apply LDA to discover latent topics in financial news
-- Extract sentiment scores for individual stocks and sectors
-- Develop news-based trading strategies (long stocks with positive news sentiment)
-- Backtest alpha generation from news signals on JSE equities
-
-**Techniques:** Web scraping, TF-IDF, topic modeling (LDA), sentiment scoring, backtesting
+#### Relevant Techniques
+- Web scraping
+- Text preprocessing
+- Sentiment analysis
+- Topic modeling (LSA, LDA)
+- Data visualization
 
 ---
 
-### WORD EMBEDDINGS and SENTIMENT PREDICTION
+### Project 4: Anti-Corruption Sentiment Analysis
 
-#### Project 7: Word2Vec Embeddings for Financial Text: Predicting Stock Movements
+#### Context
+Corruption remains a critical issue in South Africa. Analyzing public discourse can help measure the effectiveness of anti-corruption measures and guide policy.
 
-**Data to be Used:**
-- JSE company announcements and SENS filings
-- Financial news headlines (Moneyweb, Business Day)
-- Earnings call transcripts (if available)
-- JSE stock returns (daily and intraday)
+#### Data to be Used
+- Online forums discussing corruption
+- News commentary on anti-corruption efforts
+- Public feedback on government measures
+- Social media discussions
 
-**Objectives:**
-- Train Word2Vec (CBOW and Skip-gram) models on financial corpus
-- Extract semantic relationships between financial terms (e.g., "dividend" similar to "payout")
-- Use word embeddings as features for stock return prediction models
-- Compare Word2Vec vs. TF-IDF for sentiment-based trading strategies
-- Predict stock price direction using embedding-based features + machine learning
+#### Research Questions/Objectives
+1. Use NLP techniques to identify key themes and public perceptions about anti-corruption efforts
+2. Propose strategies to enhance transparency and trust in governance
+3. Utilize topic modeling to uncover hidden themes in corruption-related discussions
 
-**Techniques:** Word2Vec, feature extraction, sentiment analysis, classification (Logistic Regression, Random Forest, XGBoost)
+#### Expected Deliverables
+- Sentiment analysis of anti-corruption discourse
+- Identification of key themes and concerns
+- Trust and transparency metrics
+- Recommendations for governance improvement
 
-#### Project 8: Social Media Sentiment and Cryptocurrency Price Prediction
-
-**Data to be Used:**
-- Twitter/X data on Bitcoin and Ethereum (using API or scraped)
-- Reddit crypto discussions (r/Bitcoin, r/CryptoCurrency)
-- BTCZAR and ETHZAR prices from VALR/Luno
-- Google Trends data for crypto search volume
-
-**Objectives:**
-- Train Word2Vec or GloVe embeddings on crypto social media text
-- Extract sentiment scores using pre-trained embeddings + supervised learning
-- Predict short-term crypto price movements (1-day, 1-week ahead)
-- Test Granger causality between social sentiment and prices
-- Build sentiment-based trading strategy and backtest performance
-
-**Techniques:** Word embeddings (Word2Vec, GloVe), sentiment analysis, time series forecasting, Granger causality, backtesting
+#### Relevant Techniques
+- Text mining
+- Sentiment analysis
+- Topic modeling
+- Network analysis (if applicable)
+- Visualization
 
 ---
 
-### DEEP LEARNING: ANNs and MLPs
+### Project 5: Impact of the (2024) Elections on the South African Stock Market
 
-#### Project 9: Deep Neural Networks for Credit Default Prediction
+#### Context
+Political events significantly influence financial markets. Analyzing election-market relationships helps investors navigate political risk.
 
-**Data to be Used:**
-- Home Credit Default Risk dataset (Kaggle, adapted for SA)
-- South African credit bureau data (synthetic or anonymized)
-- Macroeconomic variables (unemployment rate, inflation, GDP growth)
-- Loan application features (income, debt-to-income ratio, credit history)
+#### Data to be Used
+- JSE stock prices
+- Economic news
+- Political commentary leading to elections
+- Market indices (FTSE/JSE All Share, etc.)
 
-**Objectives:**
-- Build Multi-Layer Perceptron (MLP) for binary credit default classification
-- Handle class imbalance using SMOTE, undersampling, or focal loss
-- Compare MLP performance vs. traditional models (Logistic Regression, XGBoost)
-- Interpret model predictions using SHAP values for regulatory compliance
-- Develop credit scoring system with probability calibration
+#### Research Questions/Objectives
+1. Analyze correlations between political events and stock market fluctuations using sequence data and RNNs
+2. Predict short-term market reactions to election-related news
+3. Propose investment strategies for election periods
 
-**Techniques:** Multi-Layer Perceptron (MLP), class imbalance handling, SHAP, hyperparameter tuning, evaluation metrics (AUC-ROC, Precision-Recall)
+#### Expected Deliverables
+- Event study analysis of election impacts
+- RNN-based prediction model
+- Trading strategy recommendations
+- Risk assessment framework
 
-#### Project 10: Options Pricing Using Neural Networks: Black-Scholes Alternative
-
-**Data to be Used:**
-- JSE options data (if available, or use US options as proxy)
-- Yahoo Finance: Implied volatility, option Greeks
-- Underlying asset prices (JSE stocks, indices)
-- Risk-free rate from SARB
-
-**Objectives:**
-- Train deep neural network to price European and American options
-- Use features: spot price, strike, time to maturity, volatility, interest rate, dividends
-- Compare ANN-based prices vs. Black-Scholes model
-- Test model performance across different moneyness and maturity ranges
-- Explore whether ANNs can capture market frictions ignored by Black-Scholes
-
-**Techniques:** Multi-Layer Perceptron, regression, activation functions, loss functions (MSE, MAE), model validation
+#### Relevant Techniques
+- Event study methodology
+- Time series analysis
+- RNN/LSTM networks
+- Sentiment analysis
+- Backtesting
 
 ---
 
-### CNNs FOR FINANCIAL TIME SERIES
+### Project 6: Bayesian Network Analysis for Stock Market Dependency Modeling
 
-#### Project 11: Candlestick Chart Pattern Recognition Using CNNs
+#### Context
+Financial markets exhibit complex dependencies that traditional correlation analysis may miss. Bayesian networks offer a probabilistic framework for understanding these relationships.
 
-**Data to be Used:**
-- Yahoo Finance: OHLCV data for JSE Top 40 stocks
-- Generate candlestick chart images programmatically
-- Label patterns: doji, hammer, engulfing, morning star, etc.
-- Historical price data for pattern backtesting
+#### Data to be Used
+- Historical stock prices (JSE-listed companies)
+- Economic indicators (GDP, inflation, interest rates)
+- Sector-specific performance data
+- Company fundamentals
 
-**Objectives:**
-- Convert OHLCV data into candlestick chart images
-- Train CNN (ResNet, VGG, custom architecture) to classify chart patterns
-- Predict short-term price direction after pattern occurrence
-- Backtest pattern-based trading strategy on JSE
-- Compare CNN accuracy vs. traditional technical analysis rules
+#### Research Questions/Objectives
+1. Use Bayesian networks to model dependencies between stocks and macroeconomic variables
+2. Identify probabilistic relationships and conditional dependencies among different JSE sectors
+3. Propose strategies for portfolio optimization and risk management based on inferred market structures
 
-**Techniques:** Convolutional Neural Networks (CNN), image classification, data augmentation, transfer learning, backtesting
+#### Expected Deliverables
+- Bayesian network structure of JSE dependencies
+- Probabilistic inference results
+- Portfolio optimization recommendations
+- Risk management strategies
 
-#### Project 12: 2D CNN for Financial Time Series: Correlation Matrix Analysis
-
-**Data to be Used:**
-- Yahoo Finance: JSE sector indices and individual stocks
-- Construct rolling correlation matrices (images)
-- Macroeconomic regime indicators (bull/bear markets, recessions)
-
-**Objectives:**
-- Convert rolling correlation matrices of stock returns into 2D images
-- Train CNN to classify market regimes (high volatility, crisis, calm)
-- Predict regime switches using correlation structure
-- Develop regime-adaptive portfolio strategies
-- Visualize learned convolutional filters to interpret correlation patterns
-
-**Techniques:** 2D CNN, image representation of time series, regime detection, portfolio management
+#### Relevant Techniques
+- Bayesian network construction
+- Probabilistic graphical models
+- Structure learning algorithms
+- Portfolio optimization
+- Risk metrics
 
 ---
 
-### RNNs & LSTMs FOR FINANCIAL FORECASTING
+### Project 7: Climate Risk Analysis for Insurance
 
-#### Project 13: USD/ZAR Exchange Rate Forecasting Using LSTM Networks
+#### Context
+Climate change poses increasing risks to insurance companies through natural disasters and extreme weather events. Analyzing these risks is crucial for product development.
 
-**Data to be Used:**
-- SARB: Daily USD/ZAR exchange rates (2010-2025)
-- Commodity prices (gold, platinum, oil) - South Africa is commodity exporter
-- Interest rate differentials (US Fed Funds vs. SARB repo rate)
-- Economic indicators (trade balance, inflation, GDP growth)
+#### Data to be Used
+- Climate data (temperature, rainfall, extreme events)
+- Insurance claims related to natural disasters
+- Geographic data
+- Historical weather patterns
 
-**Objectives:**
-- Train LSTM/GRU to forecast USD/ZAR exchange rate (1-day, 1-week, 1-month ahead)
-- Incorporate multivariate features (commodities, rates, macro variables)
-- Compare LSTM vs. ARIMA, GARCH, and random walk models
-- Test forecasting accuracy using RMSE, MAE, directional accuracy
-- Develop FX trading strategy based on LSTM predictions
+#### Research Questions/Objectives
+1. Use clustering techniques to group climate risks by region
+2. Propose innovative insurance products to address climate-related challenges
+3. Analyze trends in claims due to extreme weather events
 
-**Techniques:** LSTM, GRU, multivariate time series, sequence-to-sequence models, walk-forward validation, backtesting
+#### Expected Deliverables
+- Climate risk clustering analysis
+- Regional risk profiles
+- New insurance product proposals
+- Claims trend analysis and forecasting
 
-#### Project 14: High-Frequency Trading Strategy Using RNNs
-
-**Data to be Used:**
-- Intraday tick data for liquid JSE stocks (if available, or simulate)
-- Order book features (bid-ask spread, depth, order imbalance)
-- Technical indicators (RSI, MACD, Bollinger Bands)
-- Volume-weighted average price (VWAP)
-
-**Objectives:**
-- Build RNN/LSTM to predict short-term price movements (next 5 minutes, 1 hour)
-- Use high-frequency features (lagged returns, order flow, volatility)
-- Develop intraday mean-reversion or momentum strategies
-- Account for transaction costs and market impact
-- Backtest HFT strategy with realistic execution assumptions
-
-**Techniques:** RNN, LSTM, high-frequency data analysis, feature engineering, backtesting, transaction cost modeling
-
-#### Project 15: Portfolio Risk Forecasting Using Sequence Models
-
-**Data to be Used:**
-- Yahoo Finance: JSE portfolio constituents (daily returns)
-- Realized volatility and covariance matrices
-- VIX-equivalent for SA (if available, or construct volatility index)
-- Macroeconomic uncertainty proxies
-
-**Objectives:**
-- Train LSTM to forecast portfolio volatility and Value-at-Risk (VaR)
-- Model time-varying covariance structure using RNN
-- Compare LSTM-based VaR vs. GARCH, Historical Simulation, Parametric VaR
-- Backtest VaR predictions using violation ratios (Kupiec test)
-- Develop dynamic risk management framework
-
-**Techniques:** LSTM, volatility forecasting, Value-at-Risk (VaR), backtesting, risk management
+#### Relevant Techniques
+- K-means clustering
+- Hierarchical clustering
+- Time series analysis
+- Geographic information systems (GIS)
+- Predictive modeling
 
 ---
 
-### GANs FOR SYNTHETIC FINANCIAL DATA
+### Project 8: Land Reform and Public Perceptions
 
-#### Project 16: Generating Synthetic Market Scenarios Using GANs
+#### Context
+Land reform is a contentious and important issue in South Africa. Understanding public perceptions can inform policy and social cohesion efforts.
 
-**Data to be Used:**
-- Yahoo Finance: JSE All Share Index and constituent returns
-- Historical crisis periods (2008, 2020, SA-specific shocks)
-- Volatility and correlation data
-- Economic stress indicators
+#### Data to be Used
+- Media reports on land reform
+- Public forums discussions
+- Social media data
+- Academic commentary
 
-**Objectives:**
-- Train GAN (Vanilla GAN, WGAN, TimeGAN) to generate synthetic return paths
-- Ensure generated scenarios preserve statistical properties (mean, volatility, skewness, kurtosis)
-- Validate synthetic data using KS test, moment matching, correlation structure
-- Use synthetic scenarios for stress testing portfolios
-- Compare GAN-generated scenarios vs. Monte Carlo simulation
+#### Research Questions/Objectives
+1. Use word embeddings to understand nuanced public perceptions of land reform
+2. Analyze key factors driving positive or negative sentiment
+3. Suggest actionable reforms based on public discourse analysis
 
-**Techniques:** GANs (WGAN, TimeGAN), synthetic data generation, statistical validation, stress testing
+#### Expected Deliverables
+- Word embedding analysis of land reform discourse
+- Sentiment analysis results
+- Key factor identification
+- Policy recommendations
 
-#### Project 17: Conditional GAN for Option Price Surface Generation
-
-**Data to be Used:**
-- Options data (JSE or international markets)
-- Implied volatility surfaces across strikes and maturities
-- Underlying asset characteristics (stock price, sector, beta)
-
-**Objectives:**
-- Train Conditional GAN to generate realistic implied volatility surfaces
-- Condition on underlying asset features and market regime
-- Use generated surfaces for pricing exotic options
-- Validate GAN outputs against market-observed surfaces
-- Apply to missing/illiquid option data imputation
-
-**Techniques:** Conditional GAN (cGAN), volatility surface modeling, options pricing, data augmentation
+#### Relevant Techniques
+- Word2Vec/GloVe embeddings
+- Sentiment analysis
+- Topic modeling
+- Semantic similarity analysis
+- Visualization
 
 ---
 
-### TRANSFORMER MODELS FOR FINANCE
+### Project 9: Youth and Life Insurance Adoption Trends
 
-#### Project 18: Transformer-Based Stock Return Prediction
+#### Context
+Young South Africans represent an underserved market for life insurance. Understanding their attitudes and behaviors can help insurers develop appropriate products.
 
-**Data to be Used:**
-- Yahoo Finance: JSE stocks (prices, returns, volumes)
-- Technical indicators (MA, RSI, MACD, Bollinger Bands)
-- Fundamental data (P/E, dividend yield, market cap)
-- Macroeconomic factors
+#### Data to be Used
+- Social media posts from youth demographics
+- Demographic data
+- Survey results (if available)
+- Insurance industry reports
 
-**Objectives:**
-- Apply Transformer architecture (with attention mechanism) to stock return forecasting
-- Compare Transformer vs. LSTM/GRU for time series prediction
-- Visualize attention weights to interpret which features drive predictions
-- Test on multi-step ahead forecasts (1-day, 5-day, 20-day)
-- Develop long-short equity strategy based on Transformer predictions
+#### Research Questions/Objectives
+1. Analyze adoption trends using clustering techniques
+2. Identify factors influencing youth interest in life insurance
+3. Propose tailored marketing strategies to engage younger demographics
 
-**Techniques:** Transformer models, attention mechanism, multi-step forecasting, feature importance, backtesting
+#### Expected Deliverables
+- Youth segment clustering analysis
+- Factor analysis of adoption barriers
+- Marketing strategy recommendations
+- Product design suggestions
 
-#### Project 19: Fine-Tuning FinBERT for South African Financial Sentiment Analysis
-
-**Data to be Used:**
-- Financial news (Business Day, Moneyweb, Bloomberg SA)
-- Company announcements from SENS
-- Earnings call transcripts (if available)
-- Social media financial discussions (Twitter/X)
-- Stock price reactions to news
-
-**Objectives:**
-- Fine-tune FinBERT (pre-trained on financial text) for SA financial sentiment
-- Label training data: positive/negative/neutral sentiment
-- Predict stock price movements from sentiment scores
-- Build sentiment-based trading strategy for JSE
-- Compare FinBERT vs. Word2Vec-based sentiment models
-
-**Techniques:** Transformer fine-tuning (BERT, FinBERT), sentiment analysis, transfer learning, classification, backtesting
+#### Relevant Techniques
+- Clustering (K-means, hierarchical)
+- Sentiment analysis
+- Factor analysis
+- Demographic analysis
+- Visualization
 
 ---
 
-### LLMs, RAG and AUTOMATED AGENTS
+### Project 10: Violence Against Women and Girls Sentiment Analysis
 
-#### Project 20: RAG System for Financial Research: Equity Analysis Assistant
+#### Context
+Violence against women and girls (VAWG) remains a critical social issue in South Africa. Analyzing public discourse can assess awareness and guide interventions.
 
-**Data to be Used:**
-- JSE company annual reports, financial statements, MD&A
-- Analyst reports (if publicly available)
-- Financial news archives
-- Regulatory filings (SENS announcements)
-- Economic research from SARB
+#### Data to be Used
+- News articles on VAWG
+- Public commentary
+- Advocacy group reports
+- Social media discussions
 
-**Objectives:**
-- Build Retrieval-Augmented Generation (RAG) system using LangChain/LlamaIndex
-- Index financial documents in vector database (FAISS, Chroma, Pinecone)
-- Create conversational AI assistant for equity research queries
-- Answer questions: "What are the key risks for Company X?", "Summarize earnings trends for Sector Y"
-- Evaluate retrieval accuracy and answer quality using human evaluation
+#### Research Questions/Objectives
+1. Use NLP tools to identify themes in discussions about violence against women and girls
+2. Propose strategies to improve public awareness and policy interventions
+3. Evaluate the effectiveness of current measures based on public sentiment
 
-**Techniques:** RAG, LLMs (GPT-4, Claude, Llama), vector databases, document indexing, semantic search, prompt engineering
+#### Expected Deliverables
+- Theme identification and analysis
+- Sentiment trend analysis
+- Effectiveness assessment of current measures
+- Policy and awareness campaign recommendations
 
-#### Project 21: Autonomous Trading Agent Using LLMs and Reinforcement Learning
+#### Relevant Techniques
+- Text mining
+- Sentiment analysis
+- Topic modeling
+- Temporal analysis
+- Impact assessment
 
-**Data to be Used:**
-- Yahoo Finance: JSE stock prices and market data
-- Financial news feeds (real-time or simulated)
-- Company fundamentals and technical indicators
-- Portfolio performance metrics
+---
 
-**Objectives:**
-- Build autonomous trading agent using LLM (GPT-4, Claude) + LangChain
-- Agent analyzes market data, news, and portfolio state
-- Makes trading decisions (buy/sell/hold) with reasoning explanations
-- Incorporate risk management rules (position sizing, stop-loss)
-- Backtest agent's performance on historical data
-- Compare LLM agent vs. rule-based and ML-based strategies
+### Project 11: Sectoral Analysis of JSE under Inflation Pressure
 
-**Techniques:** LLM agents, prompt engineering, ReAct framework, backtesting, portfolio management, reinforcement learning (optional)
+#### Context
+Different economic sectors respond differently to inflationary pressures. Understanding these patterns helps investors make informed decisions.
+
+#### Data to be Used
+- JSE stock performance by sector
+- Inflation metrics (CPI, PPI)
+- Sector-specific economic indicators
+- Historical inflation periods data
+
+#### Research Questions/Objectives
+1. Use clustering to group JSE sectors based on performance during inflationary periods
+2. Propose investment strategies for inflation-resilient sectors
+3. Analyze correlations between sector growth and inflation metrics
+
+#### Expected Deliverables
+- Sector clustering by inflation response
+- Inflation-resilient sector identification
+- Investment strategy recommendations
+- Correlation analysis results
+
+#### Relevant Techniques
+- Clustering analysis
+- Correlation analysis
+- Time series analysis
+- Portfolio construction
+- Backtesting
+
+---
+
+### Project 12: Derivative Pricing and Hedging in the South African Market
+
+#### Context
+Derivatives are essential tools for risk management. Understanding pricing and hedging in the South African context is valuable for financial engineers.
+
+#### Data to be Used
+- Historical derivative prices
+- Interest rates (JIBAR, R157, etc.)
+- Stock price movements for JSE-listed companies
+- Volatility data
+
+#### Research Questions/Objectives
+1. Use Python to implement pricing models for common derivatives (options) using techniques like Black-Scholes
+2. Develop and evaluate hedging strategies for derivatives in the South African market
+3. Analyze the impact of market volatility and macroeconomic factors on derivative prices and hedging performance
+
+#### Expected Deliverables
+- Option pricing implementation
+- Hedging strategy comparison
+- Volatility impact analysis
+- Performance metrics for strategies
+
+#### Relevant Techniques
+- Black-Scholes model
+- Monte Carlo simulation
+- Greeks calculation
+- Hedging strategies (delta, gamma hedging)
+- Backtesting
+
+---
+
+### Project 13: Foreign Policy Events and Stock Market Reactions
+
+#### Context
+South Africa's foreign policy decisions and international events affect financial markets. Analyzing these relationships helps manage geopolitical risk.
+
+#### Data to be Used
+- News articles on foreign policy
+- JSE stock price data
+- International news
+- Trade data
+
+#### Research Questions/Objectives
+1. Use transformers to analyze the impact of major foreign policy announcements on stock prices
+2. Propose risk management strategies for investors in volatile sectors
+3. Identify stocks most affected by geopolitical shifts
+
+#### Expected Deliverables
+- Foreign policy event analysis
+- Stock market impact assessment
+- Risk management framework
+- Sector vulnerability analysis
+
+#### Relevant Techniques
+- Transformer models (BERT)
+- Event study methodology
+- Sentiment analysis
+- Time series analysis
+- Risk modeling
+
+---
+
+### Project 14: Insurance Claims Fraud Detection
+
+#### Context
+Fraud represents a significant cost to insurance companies. Machine learning can help identify fraudulent patterns and reduce losses.
+
+#### Data to be Used
+- Publicly available insurance claims data
+- Customer reviews
+- Claims characteristics
+- Historical fraud cases (if available)
+
+#### Research Questions/Objectives
+1. Use machine learning techniques to identify patterns in fraudulent claims
+2. Apply deep learning models to improve fraud detection accuracy
+3. Propose actionable insights to mitigate fraud risks
+
+#### Expected Deliverables
+- Fraud detection model
+- Pattern analysis of fraudulent claims
+- Model comparison (traditional ML vs deep learning)
+- Implementation recommendations
+
+#### Relevant Techniques
+- Classification algorithms (Random Forest, XGBoost)
+- Deep learning (ANN, autoencoders)
+- Anomaly detection
+- Feature engineering
+- Model evaluation metrics
+
+---
+
+### Project 15: Public Sentiment on Insurance Accessibility
+
+#### Context
+Insurance accessibility remains a challenge for many South Africans. Understanding barriers through sentiment analysis can guide industry improvements.
+
+#### Data to be Used
+- Social media feedback on insurance
+- Online forums discussing insurance products
+- Customer reviews
+- Industry reports
+
+#### Research Questions/Objectives
+1. Use NLP tools to analyze barriers to insurance accessibility
+2. Identify opportunities to make insurance more inclusive
+3. Propose strategies to improve customer satisfaction
+
+#### Expected Deliverables
+- Sentiment analysis of insurance accessibility
+- Barrier identification and categorization
+- Inclusivity recommendations
+- Customer satisfaction improvement strategies
+
+#### Relevant Techniques
+- Sentiment analysis
+- Topic modeling
+- Text classification
+- Visualization
+- Recommendation systems
 
 ---
 
 ## Project Guidelines
 
 ### Report Structure
+
 Your written report should include:
 
 1. **Executive Summary** (1 page)
@@ -526,6 +566,7 @@ Your written report should include:
    - Code snippets (selected)
 
 ### Code Submission
+
 Submit Python code as PDF with:
 - Clear section headers
 - Detailed comments explaining logic
@@ -534,6 +575,7 @@ Submit Python code as PDF with:
 - Well-formatted and readable
 
 ### Presentation
+
 Prepare a 15-20 minute presentation including:
 - Problem introduction (2 mins)
 - Methodology (3 mins)
@@ -546,7 +588,7 @@ Prepare a 15-20 minute presentation including:
 
 ## Evaluation Criteria
 
-### Report (15%)
+### Report (10%)
 - Clarity and organization
 - Technical depth
 - Analysis quality
@@ -572,14 +614,13 @@ Prepare a 15-20 minute presentation including:
 ## Academic Integrity
 
 ### Generative AI Usage
+
 The use of Generative AI tools (ChatGPT, Claude, GitHub Copilot, etc.) is **permitted** but must be disclosed:
 
 - State which AI tools were used
 - Describe how they were used
 - Include AI-generated content citations
-- **Failure to disclose AI usage will result in disqualification and a grade of 0 for the assignment**
-
-**Note:** AI detection tools are regularly used to verify compliance with disclosure requirements.
+- **Failure to disclose = Grade of 0**
 
 ### Collaboration
 - Work within your assigned group only
@@ -623,17 +664,19 @@ The use of Generative AI tools (ChatGPT, Claude, GitHub Copilot, etc.) is **perm
 ---
 
 ## Timeline
+
 | Milestone | Date | Deliverable |
 |-----------|------|-------------|
-| Group Formation | February XX, 2026 | Group list with topic |
-| Proposal | March XX, 2026 | 2-page project proposal |
-| Progress Update | April XX, 2026 | Preliminary results |
+| Group Formation | February 14, 2026 | Group list with topic |
+| Proposal | March 15, 2026 | 2-page project proposal |
+| Progress Update | April 20, 2026 | Preliminary results |
 | Final Submission | May 22, 2026, 23:59 | Report + Code + Presentation |
-| Presentations | May XX, 2026 | In-class presentations |
+| Presentations | May 16, 2026 | In-class presentations |
 
 ---
 
 ## Tips for Success
+
 1. **Start Early**: Don't wait until the last minute
 2. **Communicate**: Regular team meetings and updates
 3. **Iterate**: Test models, refine, improve
@@ -649,4 +692,4 @@ The use of Generative AI tools (ChatGPT, Claude, GitHub Copilot, etc.) is **perm
 
 For the Master of Financial Engineering Programme
 
-© 2025 Analytics Research Group
+© 2026 Analytics Research Group
