@@ -546,7 +546,7 @@ Prepare a 15-20 minute presentation including:
 
 ## Evaluation Criteria
 
-### Report (15%)
+### Report (10%)
 - Clarity and organization
 - Technical depth
 - Analysis quality
@@ -625,11 +625,11 @@ The use of Generative AI tools (ChatGPT, Claude, GitHub Copilot, etc.) is **perm
 ## Timeline
 | Milestone | Date | Deliverable |
 |-----------|------|-------------|
-| Group Formation | February XX, 2026 | Group list with topic |
-| Proposal | March XX, 2026 | 2-page project proposal |
-| Progress Update | April XX, 2026 | Preliminary results |
+| Group Formation | February 14, 2026 | Group list with topic |
+| Proposal | March 14, 2026 | 2-page project proposal |
+| Progress Update | April 18, 2026 | Preliminary results |
 | Final Submission | May 22, 2026, 23:59 | Report + Code + Presentation |
-| Presentations | May XX, 2026 | In-class presentations |
+| Presentations | May 16, 2026 | In-class presentations |
 
 ---
 
@@ -649,4 +649,4 @@ The use of Generative AI tools (ChatGPT, Claude, GitHub Copilot, etc.) is **perm
 
 For the Master of Financial Engineering Programme
 
-© 2025 Analytics Research Group
+© 2026 Analytics Research Group
