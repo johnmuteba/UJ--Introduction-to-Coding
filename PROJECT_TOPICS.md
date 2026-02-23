@@ -10,7 +10,7 @@
 
 In this course, students undertake comprehensive data science projects that address topical issues currently shaping South Africa and the financial sector. These projects constitute **40%** of the final grade distribution:
 
-- **15%** - Written Report Document
+- **10%** - Written Report Document
 - **15%** - Coding File (Python, presented in PDF format)
 - **10%** - Project Presentation
 
